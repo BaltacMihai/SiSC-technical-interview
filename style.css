@@ -1,0 +1,294 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-x: hidden;
+}
+/*-----------Sections-------------*/
+
+#dialog {
+    background-image: url("./assets/img/crocodileDetective.jpg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#scene {
+    background-image: url("./assets/img/scene.jpg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    background-image: url("./assets/img/office_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+/*-----------End of Sections-------------*/
+
+/*-----------Navbar-------------*/
+
+.navbar {
+    width: 100%;
+    height: 3rem;
+
+    background-color: #453643;
+
+    display: flex;
+}
+
+.navbar__item {
+    height: inherit;
+    width: 10rem;
+
+    background-color: #788475;
+
+    border: none;
+}
+
+.navbar__item a {
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #000;
+}
+
+.navbar__item--active {
+    background-color: #5e5d5c;
+}
+
+.navbar__item--active a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*-----------End of Navbar-------------*/
+
+/*-----------Dialog-------------*/
+
+.dialog__box {
+    padding: 3rem 5rem;
+    margin: 2rem;
+
+    background-color: #8c5a5bcc;
+}
+
+.dialog__text {
+    font-size: 16px;
+    letter-spacing: 1px;
+
+    line-height: 1.6;
+
+    color: #000;
+}
+
+/*-----------End of Dialog-------------*/
+
+/*-----------Items-------------*/
+
+.items {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+    overflow: hidden;
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background-color: #9f8d69de;
+}
+
+.scene__question {
+    color: #3c1c0f;
+
+    font-size: 30px;
+
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+
+    padding: 0 3rem;
+
+    opacity: 0.9;
+}
+
+.row:first-child {
+    padding-top: 5rem;
+}
+
+.row:last-child {
+    padding-bottom: 5rem;
+}
+
+.item__icon {
+    width: 50px;
+    height: auto;
+}
+
+.item__title {
+    width: 150px;
+
+    font-size: 15px;
+    font-weight: 100;
+
+    letter-spacing: 1px;
+}
+
+.item__description {
+    font-size: 15px;
+    font-weight: 100;
+
+    letter-spacing: 1px;
+
+    line-height: 1.6;
+}
+
+.item__icon,
+.item__title,
+.item__description {
+    padding: 5px;
+    border: 1px solid #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    margin: 0;
+}
+
+/*-----------End of Items-------------*/
+
+/*-----------Form-------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+
+    padding: 2rem 3rem;
+
+    box-shadow: 2px 3px 20px black, 0 0 60px #714a44 inset;
+    background-color: #714a44c7;
+}
+
+label {
+    margin: 0.75rem;
+    font-weight: 600;
+    color: #f8f8f8;
+}
+
+input {
+    width: 100%;
+    height: 1.75rem;
+    background-color: #f8f8f877;
+
+    border: none;
+}
+
+.input__name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__name__elements {
+    width: 45%;
+}
+
+.input__description {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f8f8f877;
+
+    border: none;
+    height: 15rem;
+
+    resize: none;
+}
+
+.form__button {
+    width: 15rem;
+    height: 3rem;
+
+    margin: 25px auto;
+
+    background-color: #35232d;
+    border: none;
+
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+
+    line-height: 1.6;
+}
+
+.form__button:hover {
+    background-color: #21161c;
+}
+
+/*-----------End of Form-------------*/
+
+/*-----------Footer-------------*/
+
+.footer {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #453643;
+
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+
+    letter-spacing: 1px;
+
+    line-height: 1.6;
+}
+
+.footer__element {
+    flex: 1;
+    text-align: center;
+}
+
+.footer__logo {
+    height: 100px;
+}
+
+/*-----------End of Footer-------------*/
