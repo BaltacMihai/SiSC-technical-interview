@@ -1,1 +1,1 @@
-# SiSC-technical-interview
+This site was made for recruits from sisc, where the recruits had a technical interview, where they had to do this site. They were not given much to create, the goal was not to make it perfect but to see them work.
